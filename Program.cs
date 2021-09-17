@@ -53,10 +53,6 @@ namespace ConsoleApp3
             }
         }
 
-        
-
-
-
     }
     class Program
     {
@@ -128,15 +124,12 @@ namespace ConsoleApp3
             }
 
 
-
             int ukupanBrojOosba = brojMuski + brojZenski;
             double ukupnaMast = sumaMastiMuski + sumaMastiZenski;
 
             Console.WriteLine("Ukupni prosek masti:" + ukupnaMast/ukupanBrojOosba);
             Console.WriteLine("Ukupni prosek masti zene:" + sumaMastiZenski / brojZenski);
             Console.WriteLine("Ukupni prosek masti muskarci:" + sumaMastiMuski / brojMuski);
-
-
 
 
             Console.WriteLine("Osoba sa najmanje " + osobaSaNajmanjeMasti.Ime_Prezime1 + " mast: " + osobaSaNajmanjeMasti.Procenat_masti());
